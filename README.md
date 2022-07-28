@@ -2,6 +2,7 @@
 ## Tools used in Project:
 - GCP and Terraform
 ![image](./img1.png)
+
 - Docker and Kubernetes
 ![image](./img2.png)
 ## Infastructure: 
