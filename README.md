@@ -60,13 +60,13 @@ pod/frontend-deploy-789666bd-7zjqd   1/1     Running   0          105m
 
 NAME                    TYPE           CLUSTER-IP     EXTERNAL-IP     PORT(S)          AGE
 service/kubernetes      ClusterIP      10.52.0.1      <none>          443/TCP          12h
-service/lb-service      LoadBalancer   10.52.1.132    34.170.44.226   8000:30010/TCP   146m
+service/my-lb-service      LoadBalancer   10.52.1.132    34.170.44.226   8000:30010/TCP   146m
 
 NAME                              READY   UP-TO-DATE   AVAILABLE   AGE
-deployment.apps/frontend-deploy   1/1     1            1           105m
+deployment.apps/my-frontend-deploy   1/1     1            1           105m
 
 NAME                                       DESIRED   CURRENT   READY   AGE
-replicaset.apps/frontend-deploy-789666bd   1         1         1       105m
+replicaset.apps/my-frontend-deploy-789666bd   1         1         1       105m
 ```
 ### 5) ensure that the app is running
 ![image](./img3.png)
