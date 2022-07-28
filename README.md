@@ -1,7 +1,7 @@
 # Deploy python app on GCP using kubernetes
 ## Tools used in Project:
 - GCP and Terraform
-- 
+
 ![image](./img1.png)
 
 - Docker and Kubernetes
