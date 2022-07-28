@@ -53,13 +53,11 @@ amir@terraform-instance:~/python-redis-app$ kubectl get all
 W0728 23:12:29.781115   13210 gcp.go:120] WARNING: the gcp auth plugin is deprecated in v1.22+, unavailable in v1.25+; use gcloud instead.
 To learn more, consult https://cloud.google.com/blog/products/containers-kubernetes/kubectl-auth-changes-in-gke
 NAME                                 READY   STATUS    RESTARTS   AGE
-pod/backend-deploy-d9ff645d5-47ln6   1/1     Running   0          145m
 pod/frontend-deploy-789666bd-7zjqd   1/1     Running   0          105m
 
 NAME                    TYPE           CLUSTER-IP     EXTERNAL-IP     PORT(S)          AGE
 service/kubernetes      ClusterIP      10.52.0.1      <none>          443/TCP          12h
 service/lb-service      LoadBalancer   10.52.1.132    34.170.44.226   8000:30010/TCP   146m
-service/redis-service   ClusterIP      10.52.15.131   <none>          6379/TCP         146m
 
 NAME                              READY   UP-TO-DATE   AVAILABLE   AGE
 deployment.apps/backend-deploy    1/1     1            1           145m
