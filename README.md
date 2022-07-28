@@ -63,11 +63,9 @@ service/kubernetes      ClusterIP      10.52.0.1      <none>          443/TCP   
 service/lb-service      LoadBalancer   10.52.1.132    34.170.44.226   8000:30010/TCP   146m
 
 NAME                              READY   UP-TO-DATE   AVAILABLE   AGE
-deployment.apps/backend-deploy    1/1     1            1           145m
 deployment.apps/frontend-deploy   1/1     1            1           105m
 
 NAME                                       DESIRED   CURRENT   READY   AGE
-replicaset.apps/backend-deploy-d9ff645d5   1         1         1       145m
 replicaset.apps/frontend-deploy-789666bd   1         1         1       105m
 ```
 ### 5) ensure that the app is running
